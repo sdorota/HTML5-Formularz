@@ -1,0 +1,20 @@
+div{
+    width: 40%;
+    background-color: gainsboro;
+    border: 2px solid black;
+    margin: 5px;
+}
+form{
+    margin:20px;
+}
+label{
+    display: block;
+}
+label[for="male"],
+label[for="female"],
+label[for="agreement"]{
+    display: inline;
+}
+#agreement{
+    margin: 15px 0px;
+}
